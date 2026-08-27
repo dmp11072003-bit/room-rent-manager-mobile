@@ -1,0 +1,37 @@
+{
+  "name": "room-rent-manager-mobile",
+  "version": "1.0.0",
+  "description": "Mobile app for room rent management with PDF generation and WhatsApp sharing",
+  "main": "node_modules/expo/AppEntry.js",
+  "scripts": {
+    "start": "expo start",
+    "android": "expo start --android",
+    "ios": "expo start --ios",
+    "web": "expo start --web",
+    "eject": "expo eject"
+  },
+  "dependencies": {
+    "react": "18.2.0",
+    "react-native": "0.72.0",
+    "expo": "~49.0.0",
+    "expo-file-system": "~15.2.2",
+    "expo-sharing": "~12.0.0",
+    "react-native-pdf": "^6.7.0",
+    "react-native-pdf-lib": "^6.5.0",
+    "react-native-gesture-handler": "~2.13.0",
+    "react-native-reanimated": "~3.3.0",
+    "react-navigation": "^6.1.0",
+    "react-navigation-bottom-tabs": "^6.5.0",
+    "react-navigation-stack": "^6.3.0",
+    "@react-navigation/native": "^6.1.0",
+    "axios": "^1.4.0",
+    "date-fns": "^2.30.0",
+    "uuid": "^9.0.0"
+  },
+  "devDependencies": {
+    "@types/react": "^18.2.0",
+    "@types/react-native": "^0.72.0",
+    "typescript": "^5.1.0"
+  },
+  "private": true
+}
